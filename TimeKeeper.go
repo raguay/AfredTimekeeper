@@ -26,36 +26,43 @@ import (
 // Setup and constants that are used.
 //
 // MAXPROJECTS            This is the maximum number of projects allowed.
+// TSDir                         This keeps the directory name for the time sheets. It is a complete path.
 //
 const (
-	MAXPROJECTS int = 10
+	MAXPROJECTS int = 20
 )
+
+var TSDir = ""
 
 //
 // Function:           main
 //
-// Description:       This is the main function for the TimeKeeper program. It taked the command line
-//                            and parses it for the proper functionality.
+// Description:       This is the main function for the TimeKeeper program. It takes the command line
+//                          and parses it for the proper functionality.
 //
 func main() {
 	if len(os.Args) > 1 {
 		switch os.Args[1][0] {
 		case 'm':
-			ViewMonth()
+			SystemViewMonth()
 		case 'w':
-			ViewWeek()
+			SystemViewWeek()
 		case 't':
-			ViewDate()
+			SystemViewDate()
 		case 'r':
 			RemoveProject()
 		case 'c':
 			ChangeProject()
+		case 'b':
+			SystemViewDay()
 		case 'a':
 			AddProject()
 		case 'o':
 			StopStart()
 		case 'p':
 			project()
+		case 'T':
+			SystemAllProjects()
 		case 's':
 			fallthrough
 		default:
@@ -65,33 +72,290 @@ func main() {
 }
 
 //
-// Function:           ViewMonth
+// Function:		getTimeSheetDir
 //
-// Description:       This function will calculate the time the current month for all the projects.
+// Description:		This function is used to cache a copy of the time
+//					sheet directory and give it in the return.
 //
-func ViewMonth() {
+func getTimeSheetDir() string {
+	if strings.Contains("", TSDir) {
+		Filename := goAlfred.Data() + "/dir.txt"
+		buf, err := ioutil.ReadFile(Filename)
+		if err == nil {
+			//
+			// Convert the directory path to a string and trim it.
+			//
+			TSDir = strings.TrimSpace(string(buf))
+		}
+	}
 
+	//
+	// Return the directory to the time sheets.
+	//
+	return (TSDir)
 }
 
 //
-// Function:           ViewWeek
+// Function:              SystemAllProjects
+//
+// Description:          This function will display to the terminal the time for all projects on
+//                             the day given on the command line next.
+//
+func SystemAllProjects() {
+	//
+	// Get the current date in case there isn't one on the command line.
+	//
+	tm := time.Now()
+	if len(os.Args) > 2 {
+		if strings.Contains("today", os.Args[2]) {
+			//
+			// Today's date.
+			//
+			tm = time.Now()
+		} else if strings.Contains("yesterday", os.Args[2]) {
+			//
+			// Yesterday is today minus one day.
+			//
+			tm = time.Now()
+			tm = tm.AddDate(0, 0, -1)
+		} else {
+			//
+			// Parse the date string given.
+			//
+			tm, _ = time.Parse("2006-Jan-02", os.Args[2])
+		}
+	}
+
+	//
+	// Get the list of project names.
+	//
+	proj := GetListOfProjects()
+
+	//
+	// For each project, get the time spent on it for the given day.
+	//
+	numproj := len(proj) - 1
+	for i := 0; i < numproj; i++ {
+		fmt.Printf("%s: %s\n", proj[i], formatTimeString(GetTimeAtDate(proj[i], tm)))
+	}
+}
+
+//
+// Function:           SystemViewMonth
+//
+// Description:       This function will calculate the time the current month for all the projects.
+//
+func SystemViewMonth() {
+	//
+	// Get the current project.
+	//
+	currentProject := GetCurrentProject()
+
+	//
+	// Get the time on that project for this month. The current time gives the current month.
+	//
+	tm := GetTimeAtMonth(currentProject, time.Now())
+
+	//
+	// format the time string and print it out.
+	//
+	fmt.Print(formatTimeString(tm))
+}
+
+//
+// Function:           GetTimeAtDate
+//
+// Description:       This function will take a project and calculate the time spent
+//                          on that project for a particular date.
+//
+func GetTimeAtMonth(project string, date time.Time) int64 {
+	tm := int64(0)
+	dateStart := time.Date(date.Year(), date.Month(), 1, 0, 0, 0, 0, time.UTC)
+
+	//
+	// Get the time added up for the whole week.
+	//
+	for i := 0; i <= date.Day(); i++ {
+		tm += GetTimeAtDate(project, dateStart.AddDate(0, 0, i))
+	}
+
+	//
+	// Return the amount of time calculated.
+	//
+	return (tm)
+}
+
+//
+// Function:           SystemViewWeek
 //
 // Description:       This function will calculate the time the current week for all the projects.
 //
 // Inputs:
 // 		variable 	description
 //
-func ViewWeek() {
-
+func SystemViewWeek() {
+	currentProject := GetCurrentProject()
+	tm := GetTimeAtWeek(currentProject, time.Now())
+	fmt.Print(formatTimeString(tm))
 }
 
 //
-// Function:           ViewDate
+// Function:           GetTimeAtDate
+//
+// Description:       This function will take a project and calculate the time spent
+//                          on that project for a particular date.
+//
+func GetTimeAtWeek(project string, date time.Time) int64 {
+	tm := int64(0)
+	dateStart := date
+	dateEnd := date
+	switch date.Weekday() {
+	case 0:
+		{
+			dateEnd = dateEnd.AddDate(0, 0, 6)
+		}
+	case 1:
+		{
+			dateStart = dateStart.AddDate(0, 0, -1)
+			dateEnd = dateEnd.AddDate(0, 0, 5)
+		}
+	case 2:
+		{
+			dateStart = dateStart.AddDate(0, 0, -2)
+			dateEnd = dateEnd.AddDate(0, 0, 4)
+		}
+	case 3:
+		{
+			dateStart = dateStart.AddDate(0, 0, -3)
+			dateEnd = dateEnd.AddDate(0, 0, 3)
+		}
+	case 4:
+		{
+			dateStart = dateStart.AddDate(0, 0, -4)
+			dateEnd = dateEnd.AddDate(0, 0, 2)
+		}
+	case 5:
+		{
+			dateStart = dateStart.AddDate(0, 0, -5)
+			dateEnd = dateEnd.AddDate(0, 0, 1)
+		}
+	case 6:
+		{
+			dateStart = dateStart.AddDate(0, 0, -6)
+		}
+	}
+	//
+	// Get the time added up for th whole week.
+	//
+	for i := 0; i < 7; i++ {
+		tm += GetTimeAtDate(project, dateStart.AddDate(0, 0, i))
+	}
+	return (tm)
+}
+
+//
+// Function:           SystemViewDate
 //
 // Description:       This function will calculate the time for projects at a certain date.
 //
-func ViewDate() {
-	vdate := GetCommandLineString()
+func SystemViewDate() {
+	currentProject := GetCurrentProject()
+	tm := GetTimeAtDate(currentProject, time.Now())
+	fmt.Print(formatTimeString(tm))
+}
+
+//
+// function:            SystemViewDay
+//
+// Description:        This function is for displaying a nice time for the current project.
+//
+func SystemViewDay() {
+	currentProject := GetCurrentProject()
+	tm := GetTimeAtDate(currentProject, time.Now())
+	ctime := formatTimeString(tm)
+	state := GetCurrentState()
+	fmt.Printf("The current time on %s is %s. Current state is %s.", currentProject, ctime, state)
+}
+
+//
+// Function:           GetTimeAtDate
+//
+// Description:       This function will take a project and calculate the time spent
+//                          on that project for a particular date.
+//
+func GetTimeAtDate(project string, date time.Time) int64 {
+	//
+	// Get the current project.
+	//
+	filename := generateTimeLogFileName(project, date)
+	tm := readDayTime(filename)
+	return tm
+}
+
+//
+// Function:             formatTimeString
+//
+// Description:         This function takes the number of seconds and returns a string
+//                            in hour:minute:seconds format with zero padding.
+//
+// Input:
+//                            tm          time in seconds (an int64)
+//
+func formatTimeString(tm int64) string {
+	min := int(tm / 60)
+	sec := tm - int64(min*60)
+	hr := min / 60
+	min = min - (hr * 60)
+	return fmt.Sprintf("%02d:%02d:%02d", hr, min, sec)
+}
+
+//
+// Function:             readDayTime
+//
+// Description:         This function reads a time sheet file and calculates the time
+//                            represented in that file.
+
+func readDayTime(filename string) int64 {
+	buf, _ := ioutil.ReadFile(filename)
+	times := regexp.MustCompile("\n|\r").Split(string(buf), -1)
+
+	//
+	// Loop through all the time lines.
+	//
+	tmwork := int64(0)
+	firsttime := int64(0)
+	first := false
+	for i := 0; i < len(times); i++ {
+		if !strings.Contains("", times[i]) {
+			//
+			// Split by colon to time and action.
+			//
+			parts := strings.Split(times[i], ":")
+			if strings.Contains("start", parts[1]) {
+				firsttime, _ = strconv.ParseInt(parts[0], 10, 64)
+				first = true
+			} else {
+				tm, _ := strconv.ParseInt(parts[0], 10, 64)
+				tmwork += tm - firsttime
+				first = false
+			}
+		}
+	}
+
+	//
+	// If a start was the last thing processed, that means it is still being timed. Get the
+	// current time to see the overall time. firsttime is the time stamp when the start
+	// was given.
+	//
+	if first {
+		currentTime := time.Now()
+		ctime := currentTime.Unix()
+		tmwork += ctime - firsttime
+	}
+	//
+	// Return the final Time.
+	//
+	return tmwork
 }
 
 //
@@ -113,7 +377,7 @@ func RemoveProject() {
 	//
 	// Open the projects file in truncation mode to remove all the old stuff.
 	//
-	Filename := goAlfred.Data() + "/projects.txt"
+	Filename := getTimeSheetDir() + "/projects.txt"
 	Fh, err := os.OpenFile(Filename, os.O_TRUNC|os.O_WRONLY|os.O_CREATE, 0666)
 	if err != nil {
 		//
@@ -220,7 +484,7 @@ func AddProject() {
 	//
 	// Create the file name that contains all the projects.
 	//
-	projectFile := goAlfred.Data() + "/projects.txt"
+	projectFile := getTimeSheetDir() + "/projects.txt"
 	Fh, err := os.OpenFile(projectFile, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0666)
 	if err != nil {
 		Fh, err = os.Create(projectFile)
@@ -259,7 +523,7 @@ func state() {
 	//
 	// Get the last state of the current project.
 	//
-	stateFile := goAlfred.Data() + "/laststate.txt"
+	stateFile := getTimeSheetDir() + "/laststate.txt"
 	buf, _ := ioutil.ReadFile(stateFile)
 	curState := string(buf)
 
@@ -299,6 +563,11 @@ func project() {
 	goAlfred.SetDefaultString("Alfred Time Keeper:  Sorry, no match...")
 
 	//
+	// Get the latest project.
+	//
+	latestproject := GetCurrentProject()
+
+	//
 	// Get the list of projects.
 	//
 	projects := make([]string, MAXPROJECTS)
@@ -311,10 +580,12 @@ func project() {
 	numproj := len(projects) - 1
 
 	//
-	// For each project, create a result line.
+	// For each project, create a result line. Show all put the current project.
 	//
 	for i := 0; i < numproj; i++ {
-		goAlfred.AddResultsSimilar(proj, projects[i], projects[i], projects[i], "", "icon.png", "yes", "", "")
+		if !strings.Contains(projects[i], latestproject) {
+			goAlfred.AddResultsSimilar(proj, projects[i], projects[i], projects[i], "", "icon.png", "yes", "", "")
+		}
 	}
 
 	//
@@ -332,7 +603,7 @@ func GetListOfProjects() []string {
 	//
 	// Create the projects array and populate it.
 	//
-	projectFile := goAlfred.Data() + "/projects.txt"
+	projectFile := getTimeSheetDir() + "/projects.txt"
 	buf, _ := ioutil.ReadFile(projectFile)
 
 	//
@@ -377,7 +648,7 @@ func GetCurrentProject() string {
 	//
 	// Get the current project.
 	//
-	Filename := goAlfred.Data() + "/project.txt"
+	Filename := getTimeSheetDir() + "/project.txt"
 	buf, _ := ioutil.ReadFile(Filename)
 
 	//
@@ -399,7 +670,7 @@ func SaveProject(proj string) {
 	//
 	// Write the new project.
 	//
-	Filename := goAlfred.Data() + "/project.txt"
+	Filename := getTimeSheetDir() + "/project.txt"
 	err := ioutil.WriteFile(Filename, []byte(proj), 0666)
 	if err != nil {
 		fmt.Print("Can not write the project file: " + Filename)
@@ -422,18 +693,7 @@ func StopStartProject(currentProject string, cmd string) string {
 	//
 	resultStr := ""
 
-	//
-	// Get the current state.
-	//
-	Filename := goAlfred.Data() + "/laststate.txt"
-	buf, err := ioutil.ReadFile(Filename)
-	currentState := "stop"
-	if err == nil {
-		//
-		// Convert the current project to a string and trim it.
-		//
-		currentState = strings.TrimSpace(string(buf))
-	}
+	currentState := GetCurrentState()
 
 	//
 	// Is the current state the same as the new state?
@@ -449,7 +709,7 @@ func StopStartProject(currentProject string, cmd string) string {
 		// dated project file. Open the file for writing.
 		//
 		currentTime := time.Now()
-		Filename = generateTimeLogFileName(currentProject, currentTime)
+		Filename := generateTimeLogFileName(currentProject, currentTime)
 		Fh, err := os.OpenFile(Filename, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0666)
 		if err != nil {
 			//
@@ -462,7 +722,7 @@ func StopStartProject(currentProject string, cmd string) string {
 		//
 		// Write the new command with the time stamp to the buffer.
 		//
-		str := strconv.FormatInt(currentTime.Unix(), 10) + ":" + cmd + "\n"
+		str := fmt.Sprintf("%d:%s\n", currentTime.Unix(), cmd)
 		_, err = io.WriteString(Fh, str)
 
 		//
@@ -473,7 +733,7 @@ func StopStartProject(currentProject string, cmd string) string {
 		//
 		// Write the laststate file with the new state.
 		//
-		ioutil.WriteFile(goAlfred.Data()+"/laststate.txt", []byte(cmd), 0666)
+		ioutil.WriteFile(getTimeSheetDir()+"/laststate.txt", []byte(cmd), 0666)
 
 		//
 		// Tell the user it is set.
@@ -485,6 +745,27 @@ func StopStartProject(currentProject string, cmd string) string {
 	// Return the resulting string.
 	//
 	return (resultStr)
+}
+
+//
+// function:                GetCurrentState
+//
+// Description:           This function gets the current state of the project.
+//
+func GetCurrentState() string {
+	//
+	// Get the current state.
+	//
+	Filename := getTimeSheetDir() + "/laststate.txt"
+	buf, err := ioutil.ReadFile(Filename)
+	currentState := "stop"
+	if err == nil {
+		//
+		// Convert the current project to a string and trim it.
+		//
+		currentState = strings.TrimSpace(string(buf))
+	}
+	return currentState
 }
 
 //
@@ -501,6 +782,6 @@ func generateTimeLogFileName(proj string, dt time.Time) string {
 	//
 	// Generate the proper file name based on the project name and date.
 	//
-	filename := goAlfred.Data() + "/" + proj + "_" + dt.Format("2006-01-02") + ".txt"
+	filename := getTimeSheetDir() + "/" + proj + "_" + dt.Format("2006-01-02") + ".txt"
 	return (filename)
 }

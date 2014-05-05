@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.customct.AlfredTimeKeeper</string>
+	<string>com.customct.AlfredTimeKeeper2</string>
 	<key>connections</key>
 	<dict>
 		<key>02659E2A-7ABB-4AFC-A9B9-62ACE375A522</key>
@@ -22,6 +22,39 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>1739AB08-C0AD-47E2-9EE4-64CBE569D4F3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>064D8AA6-3A47-4EDB-AF7D-17435E5B6D97</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>44EDF36E-5617-4262-8401-727951FCDABD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>074B3E1C-F21F-4B0F-8BF5-58473EA93400</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>88EE5B92-0C18-4BCB-956F-E5D7614FB400</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>13B78751-364A-484A-B38A-EA6B2E3E7344</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6838A012-2304-401C-8160-24128EF08CA3</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -61,6 +94,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>3DB656C5-0562-48E9-ADD8-498E85E5791D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6D93D438-4B8E-4212-A317-0CD1CAA7193B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>3F4F8E1A-1509-47E6-ACE0-F792B11A5A27</key>
 		<array>
 			<dict>
@@ -74,6 +118,50 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>ABD462D3-642D-4053-973D-B90C341D37CE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>42864C1B-843E-4DBF-8537-5138421F1B73</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>074B3E1C-F21F-4B0F-8BF5-58473EA93400</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>44EDF36E-5617-4262-8401-727951FCDABD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>88EE5B92-0C18-4BCB-956F-E5D7614FB400</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>45663168-540D-4FDA-A18A-44E8468F27CA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>88EE5B92-0C18-4BCB-956F-E5D7614FB400</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>4870EBCE-920A-4129-BC0B-F8B88F4ED7DC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F54D6C50-B47B-41EF-B009-3098D9EED252</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -124,6 +212,50 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>5FAF5C91-7577-4D8D-AE04-EFFF7EFD472D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7BAF7716-1FD8-4F64-9E69-DBD96486E9B5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>655ADC34-A808-4FB8-9CF4-BA57BF9F8D99</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>45663168-540D-4FDA-A18A-44E8468F27CA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>6838A012-2304-401C-8160-24128EF08CA3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>88EE5B92-0C18-4BCB-956F-E5D7614FB400</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>698CC1E6-86E1-4D49-A755-4E82D83DD7C2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>88EE5B92-0C18-4BCB-956F-E5D7614FB400</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>6AAB19BA-7BF4-4E33-8C09-66253C0D0A81</key>
 		<array>
 			<dict>
@@ -137,6 +269,39 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>CBE65EC9-AC60-4B04-A11B-DAEDB2F2660C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>6D93D438-4B8E-4212-A317-0CD1CAA7193B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>88EE5B92-0C18-4BCB-956F-E5D7614FB400</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>79A0BB12-F400-4E7C-B181-FD055B3B37D6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EE2505EC-23A9-4D76-AA27-38B049B73CD5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>7BAF7716-1FD8-4F64-9E69-DBD96486E9B5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>88EE5B92-0C18-4BCB-956F-E5D7614FB400</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -239,6 +404,36 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>ADA6C829-C801-4674-8DE1-C0BE4BCEE5E6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>698CC1E6-86E1-4D49-A755-4E82D83DD7C2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>ADEFA62F-34B0-4B50-A705-BB014057328F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8FC266B1-AD42-476E-BC84-DEF52278A9E4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>2A366BE2-5DD2-4B6C-9D57-377410816E4F</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Browse in Finder</string>
+			</dict>
+		</array>
 		<key>B1102C87-0B85-41D6-BFD0-3262E833AA55</key>
 		<array>
 			<dict>
@@ -259,16 +454,7 @@
 			</dict>
 		</array>
 		<key>B2947C28-B3CA-40AF-8BA8-CB56D958AA9F</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>63E7DB5A-2FCE-4A1B-8A4D-08CABCC99F77</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
+		<array/>
 		<key>B307112F-E765-4C54-963F-49AAC1427CE7</key>
 		<array>
 			<dict>
@@ -302,6 +488,28 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>EE2505EC-23A9-4D76-AA27-38B049B73CD5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>88EE5B92-0C18-4BCB-956F-E5D7614FB400</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>F54D6C50-B47B-41EF-B009-3098D9EED252</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>88EE5B92-0C18-4BCB-956F-E5D7614FB400</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Richard Guay</string>
@@ -310,39 +518,18 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Alfred Time Keeper</string>
+	<string>Alfred Time Keeper 2</string>
 	<key>objects</key>
 	<array>
 		<dict>
 			<key>config</key>
 			<dict>
 				<key>escaping</key>
-				<integer>63</integer>
+				<integer>0</integer>
 				<key>script</key>
-				<string>include_once("timekeeper.php");
-include_once("workflows.php");
-error_reporting(0);
-$wf = new Workflows();
-$proj = "{query}";
-$oldproj=file_get_contents($wf-&gt;data()."/project.txt");
-file_put_contents($wf-&gt;data()."/project.txt",$proj);
-$last=file_get_contents($wf-&gt;data()."/laststate.txt");
-$time=time();
-$date=date('Y-m-d',$time);
-if(strcmp($last,"start") == 0) {
-   $fh = fopen($wf-&gt;data()."/{$oldproj}_{$date}.txt", 'a');
-   fwrite($fh, "{$time}:stop\n");
-   fclose($fh);
-}
-
-$fh = fopen($wf-&gt;data()."/{$proj}_{$date}.txt", 'a');
-fwrite($fh, "{$time}:start\n");
-fclose($fh);
-file_put_contents($wf-&gt;data()."/laststate.txt","start");
-
-echo "The current project is {$proj} and is started.";</string>
+				<string>./TimeKeeper c {query}</string>
 				<key>type</key>
-				<integer>1</integer>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
@@ -357,23 +544,19 @@ echo "The current project is {$proj} and is started.";</string>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
-				<integer>127</integer>
+				<integer>0</integer>
 				<key>keyword</key>
 				<string>atk:project</string>
 				<key>runningsubtext</key>
 				<string>Loading projects...</string>
 				<key>script</key>
-				<string>#
-# echo `Project s "{query}" \n`
-#
-echo '&lt;items&gt;&lt;item uidid="Envato" valid="yes" auto=""&gt;&lt;arg&gt;Envato&lt;/arg&gt;&lt;title&gt;Envato&lt;/title&gt;&lt;sub&gt;&lt;/sub&gt;&lt;icon&gt;icon.png&lt;/icon&gt;&lt;/item&gt;&lt;item uidid="Missions" valid="yes" auto=""&gt;&lt;arg&gt;Missions&lt;/arg&gt;&lt;title&gt;Missions&lt;/title&gt;&lt;sub&gt;&lt;/sub&gt;&lt;icon&gt;icon.png&lt;/icon&gt;&lt;/item&gt;&lt;item uidid="" valid="" auto=""&gt;&lt;arg&gt;&lt;/arg&gt;&lt;title&gt;&lt;/title&gt;&lt;sub&gt;&lt;/sub&gt;&lt;icon&gt;&lt;/icon&gt;&lt;/item&gt;&lt;/items&gt;\n';
-</string>
+				<string>./TimeKeeper p {query}</string>
 				<key>subtext</key>
-				<string>Set the current Project to {query}</string>
-				<key>title</key>
 				<string>Alfred Time Keeper</string>
+				<key>title</key>
+				<string>Set the Current Project to {query}</string>
 				<key>type</key>
-				<integer>5</integer>
+				<integer>0</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -387,40 +570,14 @@ echo '&lt;items&gt;&lt;item uidid="Envato" valid="yes" auto=""&gt;&lt;arg&gt;Env
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>escaping</key>
-				<integer>63</integer>
-				<key>script</key>
-				<string>include_once("timekeeper.php");
-include_once("workflows.php");
-error_reporting(0);
-$wf = new Workflows();
-$nproj = "{query}";
-$fh = fopen($wf-&gt;data()."/projects.txt", 'a');
-fwrite($fh, $nproj);
-fclose($fh);
-
-echo "Added new project: {$nproj}";</string>
-				<key>type</key>
-				<integer>1</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>BD7C4985-71B0-4EA5-8069-FD9ACE8B18AA</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
 				<string>atk:addproject</string>
 				<key>subtext</key>
-				<string>Add a new project to track time.</string>
-				<key>text</key>
 				<string>Alfred Time Keeper</string>
+				<key>text</key>
+				<string>Add a new project to track time.</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -434,6 +591,23 @@ echo "Added new project: {$nproj}";</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>escaping</key>
+				<integer>1</integer>
+				<key>script</key>
+				<string>./TimeKeeper a {query}</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>BD7C4985-71B0-4EA5-8069-FD9ACE8B18AA</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -441,11 +615,11 @@ echo "Added new project: {$nproj}";</string>
 				<key>argumenttext</key>
 				<string>start</string>
 				<key>hotkey</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>1572864</integer>
+				<integer>0</integer>
 				<key>hotstring</key>
-				<string>S</string>
+				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -462,28 +636,11 @@ echo "Added new project: {$nproj}";</string>
 			<key>config</key>
 			<dict>
 				<key>escaping</key>
-				<integer>63</integer>
+				<integer>0</integer>
 				<key>script</key>
-				<string>include_once("timekeeper.php");
-include_once("workflows.php");
-error_reporting(0);
-$wf = new Workflows();
-$action = "{query}";
-$proj=file_get_contents($wf-&gt;data()."/project.txt");
-$laststate = file_get_contents($wf-&gt;data()."/laststate.txt");
-if(strcmp($action,$laststate) != 0) {
-   $time=time();
-   $date=date('Y-m-d',$time);
-   $fh = fopen($wf-&gt;data()."/{$proj}_{$date}.txt", 'a');
-   fwrite($fh, "{$time}:{$action}\n");
-   fclose($fh);
-   file_put_contents($wf-&gt;data()."/laststate.txt",$action);
-   echo "{$action} Counting Time…";
-} else {
-   echo "Already {$action}.";
-}</string>
+				<string>./TimeKeeper o {query}</string>
 				<key>type</key>
-				<integer>1</integer>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
@@ -504,11 +661,11 @@ if(strcmp($action,$laststate) != 0) {
 				<key>runningsubtext</key>
 				<string>Getting current state...</string>
 				<key>script</key>
-				<string>echo `TimeKeeper s "{query}"`</string>
+				<string>./TimeKeeper s {query}</string>
 				<key>subtext</key>
-				<string>Start or Stop</string>
-				<key>title</key>
 				<string>Alfred Time Keeper</string>
+				<key>title</key>
+				<string>Start or Stop</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -531,11 +688,11 @@ if(strcmp($action,$laststate) != 0) {
 				<key>argumenttext</key>
 				<string>stop</string>
 				<key>hotkey</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>1310720</integer>
+				<integer>0</integer>
 				<key>hotstring</key>
-				<string>S</string>
+				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -545,37 +702,6 @@ if(strcmp($action,$laststate) != 0) {
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>02659E2A-7ABB-4AFC-A9B9-62ACE375A522</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>escaping</key>
-				<integer>63</integer>
-				<key>script</key>
-				<string>include_once("timekeeper.php");
-include_once("workflows.php");
-error_reporting(0);
-$wf = new Workflows();
-$proj=file_get_contents($wf-&gt;data()."/project.txt");
-$laststate = file_get_contents($wf-&gt;data()."/laststate.txt");
-$date=date('Y-m-d',time());
-$file=$wf-&gt;data()."/{$proj}_{$date}.txt";
-if(file_exists($file)) {
-   $time=readDayTime($file);
-   $stime = timeTostring($time);
-   echo sprintf("The current project is %s and you have been working on it for %s. The current state is: %s",$proj2, $stime, $laststate);
-} else {
-   echo "The current project is {$proj2}, but it is not started today.";
-}</string>
-				<key>type</key>
-				<integer>1</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>971E0C62-56E6-4BCC-AB89-A9F14EF1F6B5</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -607,6 +733,39 @@ if(file_exists($file)) {
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>script</key>
+				<string>include_once("timekeeper.php");
+include_once("workflows.php");
+error_reporting(0);
+$wf = new Workflows();
+$dir = trim(file_get_contents($wf-&gt;data()."/dir.txt"));
+
+$proj=file_get_contents("$dir/project.txt");
+$laststate = file_get_contents("$dir/laststate.txt");
+$date=date('Y-m-d',time());
+$file="$dir/{$proj}_{$date}.txt";
+if(file_exists($file)) {
+   $time=readDayTime($file);
+   $stime = timeTostring($time);
+   echo sprintf("The current project is %s and you have been working on it for %s. The current state is: %s",$proj, $stime, $laststate);
+} else {
+   echo "The current project is {$proj}, but it is not started today.";
+}</string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>971E0C62-56E6-4BCC-AB89-A9F14EF1F6B5</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>autopaste</key>
 				<false/>
 				<key>clipboardtext</key>
@@ -627,9 +786,9 @@ if(file_exists($file)) {
 				<key>keyword</key>
 				<string>atk:current</string>
 				<key>subtext</key>
-				<string>Display the current project.</string>
-				<key>text</key>
 				<string>Alfred Time Keeper</string>
+				<key>text</key>
+				<string>Display the current project.</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -650,10 +809,12 @@ if(file_exists($file)) {
 include_once("workflows.php");
 error_reporting(0);
 $wf = new Workflows();
-$proj=file_get_contents($wf-&gt;data()."/project.txt");
-$laststate = file_get_contents($wf-&gt;data()."/laststate.txt");
+$dir = trim(file_get_contents($wf-&gt;data()."/dir.txt"));
+
+$proj=file_get_contents("$dir/project.txt");
+$laststate = file_get_contents("$dir/laststate.txt");
 $date=date('Y-m-d',time());
-$file=$wf-&gt;data()."/{$proj}_{$date}.txt";
+$file="$dir/{$proj}_{$date}.txt";
 if(file_exists($file)) {
    $time=readDayTime($file);
    $stime=timeTostring($time);
@@ -681,7 +842,8 @@ if(file_exists($file)) {
 include_once("workflows.php");
 error_reporting(0);
 $wf = new Workflows();
-$proj=file_get_contents($wf-&gt;data()."/project.txt");
+$dir = trim(file_get_contents($wf-&gt;data()."/dir.txt"));
+$proj=file_get_contents("$dir/project.txt");
 
 $today = new DateTime('UTC');
 $stop = $today-&gt;format('w');
@@ -694,13 +856,13 @@ if($first-&gt;format('w') != 0) {
 $time = 0;
 
 while($first-&gt;format('w') != $stop){
-   $file=sprintf($wf-&gt;data()."/%s_%s.txt",$proj, $first-&gt;format('Y-m-d'));
+   $file=sprintf("$dir/%s_%s.txt",$proj, $first-&gt;format('Y-m-d'));
    if(file_exists($file)) {
       $time+=readDayTime($file);
    }
    $first-&gt;modify('next day');
 }
-$file=sprintf($wf-&gt;data()."/%s_%s.txt",$proj, $first-&gt;format('Y-m-d'));
+$file=sprintf("$dir/%s_%s.txt",$proj, $first-&gt;format('Y-m-d'));
 if(file_exists($file)) {
    $time+=readDayTime($file);
 }
@@ -728,8 +890,8 @@ echo $stime;
 include_once("workflows.php");
 error_reporting(0);
 $wf = new Workflows();
-$proj=file_get_contents($wf-&gt;data()."/project.txt");
-
+$dir = trim(file_get_contents($wf-&gt;data()."/dir.txt"));
+$proj=file_get_contents("$dir/project.txt");
 
 $today = new DateTime('UTC');
 $stop = $today-&gt;format('w');
@@ -742,13 +904,13 @@ if($first-&gt;format('w') != 0) {
 $time = 0;
 
 while($first-&gt;format('w') != $stop){
-   $file=sprintf($wf-&gt;data()."/%s_%s.txt",$proj, $first-&gt;format('Y-m-d'));
+   $file=sprintf("$dir/%s_%s.txt",$proj, $first-&gt;format('Y-m-d'));
    if(file_exists($file)) {
       $time+=readDayTime($file);
    }
    $first-&gt;modify('next day');
 }
-$file=sprintf($wf-&gt;data()."/%s_%s.txt",$proj, $first-&gt;format('Y-m-d'));
+$file=sprintf("$dir/%s_%s.txt",$proj, $first-&gt;format('Y-m-d'));
 if(file_exists($file)) {
    $time+=readDayTime($file);
 }
@@ -773,9 +935,9 @@ echo "This week for {$proj} is {$stime}.";</string>
 				<key>keyword</key>
 				<string>atk:week</string>
 				<key>subtext</key>
-				<string>View the time this week for the current project.</string>
-				<key>text</key>
 				<string>Alfred Time Keeper</string>
+				<key>text</key>
+				<string>View the time this week for the current project.</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -796,11 +958,13 @@ echo "This week for {$proj} is {$stime}.";</string>
 include_once("workflows.php");
 error_reporting(0);
 $wf = new Workflows();
-$proj=file_get_contents($wf-&gt;data()."/project.txt");
+$dir = trim(file_get_contents($wf-&gt;data()."/dir.txt"));
+
+$proj=file_get_contents("$dir/project.txt");
 $thismonth=date('Y-m',time());
 $time=0;
 for($i=0;$i&lt;32;$i++){
-   $file=sprintf($wf-&gt;data()."/%s_%s-%02d.txt",$proj,$thismonth,$i);
+   $file=sprintf("$dir/%s_%s-%02d.txt",$proj,$thismonth,$i);
    if(file_exists($file)) {
       $time+=readDayTime($file);
    }
@@ -825,9 +989,9 @@ echo "This Month for {$proj} is {$stime}.";</string>
 				<key>keyword</key>
 				<string>atk:month</string>
 				<key>subtext</key>
-				<string>View the current month.</string>
-				<key>text</key>
 				<string>Alfred Time Keeper</string>
+				<key>text</key>
+				<string>View the current month.</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -848,11 +1012,13 @@ echo "This Month for {$proj} is {$stime}.";</string>
 include_once("workflows.php");
 error_reporting(0);
 $wf = new Workflows();
-$proj=file_get_contents($wf-&gt;data()."/project.txt");
+$dir = trim(file_get_contents($wf-&gt;data()."/dir.txt"));
+
+$proj=file_get_contents("$dir/project.txt");
 $thismonth=date('Y-m',time());
 $time=0;
 for($i=0;$i&lt;32;$i++){
-   $file=sprintf($wf-&gt;data()."/%s_%s-%02d.txt",$proj,$thismonth,$i);
+   $file=sprintf("$dir/%s_%s-%02d.txt",$proj,$thismonth,$i);
    if(file_exists($file)) {
       $time+=readDayTime($file);
    }
@@ -877,9 +1043,9 @@ echo $stime;</string>
 				<key>keyword</key>
 				<string>atk:time</string>
 				<key>subtext</key>
-				<string>"today"=today's time sheet,  "yesterday"=yesterdays time sheet, "YY-MM-DD"=time sheet for that day.</string>
-				<key>text</key>
 				<string>Alfred Time Keeper</string>
+				<key>text</key>
+				<string>"today"=today's time sheet,  "yesterday"=yesterdays time sheet, "YYYY-MM-DD"=time sheet for that day.</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -900,6 +1066,8 @@ echo $stime;</string>
 include_once("workflows.php");
 error_reporting(0);
 $wf = new Workflows();
+$dir = trim(file_get_contents($wf-&gt;data()."/dir.txt"));
+
 $date="{query}";
 
 if(strcmp($date,"today") == 0) {
@@ -913,14 +1081,14 @@ if(strcmp($date,"today") == 0) {
    echo "Not a proper date. Try again!";
    die();
 }
-$file_handle = fopen($wf-&gt;data()."/projects.txt", "rb");
+$file_handle = fopen("$dir/projects.txt", "rb");
 echo $date.":\n";
 while (!feof($file_handle) ) {
 
    $proj = fgets($file_handle);
    $proj = substr($proj,0,-1);
    if ($proj != "") {
-      $file=$wf-&gt;data()."/{$proj}_{$date}.txt";
+      $file="$dir/{$proj}_{$date}.txt";
       if(file_exists($file)) {
          $time=readDayTime($file);
          $stime = timeTostring($time);
@@ -950,35 +1118,19 @@ fclose($file_handle);
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
-				<integer>63</integer>
+				<integer>0</integer>
 				<key>keyword</key>
 				<string>atk:remove</string>
 				<key>runningsubtext</key>
 				<string>loading projects...</string>
 				<key>script</key>
-				<string>include_once('workflows.php');
-
-$wf = new Workflows();
-
-$file_handle = fopen($wf-&gt;data()."/projects.txt", "rb");
-
-while (!feof($file_handle) ) {
-
-   $project = fgets($file_handle);
-   if ($project != "") {
-	   $wf-&gt;result( $project, $project, "Alfred Time Keeper", "Remove project: {$project}", 'icon.png', 'yes');
-	}
-}
-
-fclose($file_handle);
-
-echo $wf-&gt;toxml();</string>
+				<string>./TimeKeeper p {query}</string>
 				<key>subtext</key>
-				<string>Remove a project for the list</string>
-				<key>title</key>
 				<string>Alfred Time Keeper</string>
+				<key>title</key>
+				<string>Remove a project for the list</string>
 				<key>type</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -993,64 +1145,16 @@ echo $wf-&gt;toxml();</string>
 			<key>config</key>
 			<dict>
 				<key>escaping</key>
-				<integer>63</integer>
+				<integer>0</integer>
 				<key>script</key>
-				<string>include_once('workflows.php');
-error_reporting(0);
-$remp = "{query}";
-$wf = new Workflows();
-$proj = array();
-
-$file_handle = fopen($wf-&gt;data()."/projects.txt", "rb");
-
-while (!feof($file_handle) ) {
-
-   $project = fgets($file_handle);
-   if ($project != "") {
-	  if(strcmp($project,$remp) != 0) {
-		$proj[] = $project;
-      }
-	}
-}
-
-fclose($file_handle);
-
-$file_handle = fopen($wf-&gt;data()."/projects.txt", "w");
-
-foreach($proj as $projn) {
-   fputs($file_handle,$projn);
-}
-fclose($file_handle);
-
-echo "Removed project ".$remp;</string>
+				<string>./TimeKeeper r {query}</string>
 				<key>type</key>
-				<integer>1</integer>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>526AFC09-FF2C-4CCC-8C9D-00B8C33CF407</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>atkgui</string>
-				<key>subtext</key>
-				<string>GUI Interface</string>
-				<key>text</key>
-				<string>Alfred Time Keeper</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>381D99C4-B760-42D8-9A1B-A6F89EFDE6BA</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -1349,65 +1453,113 @@ root.mainloop()</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>atkgui</string>
+				<key>subtext</key>
+				<string>Alfred Time Keeper</string>
+				<key>text</key>
+				<string>GUI Interface</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>381D99C4-B760-42D8-9A1B-A6F89EFDE6BA</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>escaping</key>
 				<integer>63</integer>
 				<key>script</key>
-				<string>echo &lt;&lt;&lt;HEREDOC
-Keyword        Description
--------        -----------
-atkhelp        This help screen
+				<string>open ./ATK-Help.pdf</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B2947C28-B3CA-40AF-8BA8-CB56D958AA9F</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>atk:help</string>
+				<key>subtext</key>
+				<string>Alfred Time Keeper</string>
+				<key>text</key>
+				<string>Help Notification</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DAABF3ED-2B41-47DA-A1DD-6BA3D0EBEC03</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>atk:et</string>
+				<key>subtext</key>
+				<string>Alfred Time Keeper</string>
+				<key>text</key>
+				<string>Edit the current Time file.</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>79A0BB12-F400-4E7C-B181-FD055B3B37D6</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>include_once("timekeeper.php");
+include_once("workflows.php");
+error_reporting(0);
+$wf = new Workflows();
+$dir = trim(file_get_contents($wf-&gt;data()."/dir.txt"));
 
-atkgui         A simple graphical 
-                   interface for viewing 
-                   times.
-
-addproject     Allows you to add a
-                      project for time
-                      keeping.
-
-removeproject  Allows you to remove
-                        a project. It will
-                        list the project that
-                        can be removed.
-
-atk:project     Allows you to set
-                    the project to keep
-                    time for. It will
-                    list the different
-                    projects.
-
-currentproject  Displays the time of
-                        current project
-                        and it's status.
-
-atk:state      This allows you to turn 
-                        the timer on or off. It 
-                        will prompt for which 
-                        one you want.
-
-worktime        This will display the 
-                     time worked on the
-                     current project. 
-                     you specify the day.
-                     You can use 'today'
-                     and 'yesterday'.
-
-vweek           This will display the
-                    current project's time
-                    for the current week.
-
-vmonth          This will display the
-                      current project's time
-                      for the current month.
-HEREDOC;
-</string>
+$proj=file_get_contents("$dir/project.txt");
+$editor=file_get_contents($wf-&gt;data()."/editor.txt");
+$laststate = file_get_contents("$dir/laststate.txt");
+$date=date('Y-m-d',time());
+$file="$dir/{$proj}_{$date}.txt";
+if(file_exists($file)) {
+	exec("open -a '$editor' '$file'");
+	echo "Editing file $file.";
+} else {
+	echo "File does not exist yet!";
+}</string>
 				<key>type</key>
 				<integer>1</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>B2947C28-B3CA-40AF-8BA8-CB56D958AA9F</string>
+			<string>EE2505EC-23A9-4D76-AA27-38B049B73CD5</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -1432,7 +1584,7 @@ HEREDOC;
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>63E7DB5A-2FCE-4A1B-8A4D-08CABCC99F77</string>
+			<string>88EE5B92-0C18-4BCB-956F-E5D7614FB400</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -1442,18 +1594,645 @@ HEREDOC;
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>atk:help</string>
+				<string>atk:ety</string>
 				<key>subtext</key>
-				<string>Help Notification</string>
-				<key>text</key>
 				<string>Alfred Time Keeper</string>
+				<key>text</key>
+				<string>Edit yesterday's time file for the current project.</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>DAABF3ED-2B41-47DA-A1DD-6BA3D0EBEC03</string>
+			<string>42864C1B-843E-4DBF-8537-5138421F1B73</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>include_once("timekeeper.php");
+include_once("workflows.php");
+error_reporting(0);
+$wf = new Workflows();
+$dir = trim(file_get_contents($wf-&gt;data()."/dir.txt"));
+
+$proj=file_get_contents("$dir/project.txt");
+$editor=file_get_contents($wf-&gt;data()."/editor.txt");
+$laststate = file_get_contents("$dir/laststate.txt");
+$date=date('Y-m-d',time()-(60*60*24));
+$file="$dir/{$proj}_{$date}.txt";
+if(file_exists($file)) {
+	exec("open -a '$editor' '$file'");
+	echo "Editing file $file.";
+} else {
+	echo "File does not exist yet!";
+}</string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>074B3E1C-F21F-4B0F-8BF5-58473EA93400</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>include_once("timekeeper.php");
+include_once("workflows.php");
+error_reporting(0);
+$wf = new Workflows();
+
+file_put_contents($wf-&gt;data()."/editor.txt","{query}");
+
+echo "The {query} editor is set.";
+</string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>698CC1E6-86E1-4D49-A755-4E82D83DD7C2</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>atk:seteditor</string>
+				<key>scopes</key>
+				<array/>
+				<key>subtext</key>
+				<string>Alfred Time Keeper</string>
+				<key>title</key>
+				<string>Set the Editor to use.</string>
+				<key>types</key>
+				<array>
+					<string>com.apple.application-bundle</string>
+				</array>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>ADA6C829-C801-4674-8DE1-C0BE4BCEE5E6</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>atk:ctb</string>
+				<key>subtext</key>
+				<string>Alfred Time Keeper</string>
+				<key>text</key>
+				<string>Move Today's Last Time Back</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>655ADC34-A808-4FB8-9CF4-BA57BF9F8D99</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>include_once("timekeeper.php");
+include_once("workflows.php");
+error_reporting(0);
+
+$wf = new Workflows();
+$mmin = "{query}";
+$dir = trim(file_get_contents($wf-&gt;data()."/dir.txt"));
+
+$proj=file_get_contents("$dir/project.txt");
+$laststate = file_get_contents("$dir/laststate.txt");
+
+$date=date('Y-m-d',time());
+$file="$dir/{$proj}_{$date}.txt";
+if(file_exists($file)) {
+	$lines = explode("\n",file_get_contents($file));
+	$count = count($lines);
+	$parts = explode(":",$lines[$count-2]);
+	$lines[$count-2] = (intval($parts[0])-(60*$mmin)) . ":" . $parts[1];
+	file_put_contents($file,implode("\n",$lines));
+	echo "Edited file $file.";
+} else {
+	echo "File does not exist yet!";
+}</string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>45663168-540D-4FDA-A18A-44E8468F27CA</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>include_once("timekeeper.php");
+include_once("workflows.php");
+error_reporting(0);
+
+$wf = new Workflows();
+$mmin = "{query}";
+$dir = trim(file_get_contents($wf-&gt;data()."/dir.txt"));
+
+$proj=file_get_contents("$dir/project.txt");
+$laststate = file_get_contents("$dir/laststate.txt");
+
+$date=date('Y-m-d',time()-(60*60*24));
+$file="$dir/{$proj}_{$date}.txt";
+if(file_exists($file)) {
+	$lines = explode("\n",file_get_contents($file));
+	$count = count($lines);
+	$parts = explode(":",$lines[$count-2]);
+	$lines[$count-2] = (intval($parts[0])-(60*$mmin)) . ":" . $parts[1];
+	file_put_contents($file,implode("\n",$lines));
+	echo "Edited file $file.";
+} else {
+	echo "File does not exist yet!";
+}</string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>44EDF36E-5617-4262-8401-727951FCDABD</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>atk:ytb</string>
+				<key>subtext</key>
+				<string>Alfred Time Keeper</string>
+				<key>text</key>
+				<string>Move Yesterdays Last Time Back</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>064D8AA6-3A47-4EDB-AF7D-17435E5B6D97</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>atk:settimezone</string>
+				<key>subtext</key>
+				<string>Alfred Time Keeper</string>
+				<key>text</key>
+				<string>Set UTC Offset</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>4870EBCE-920A-4129-BC0B-F8B88F4ED7DC</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>include_once("timekeeper.php");
+include_once("workflows.php");
+error_reporting(0);
+
+$wf = new Workflows();
+$utco = intval("{query}");
+$dir = trim(file_get_contents($wf-&gt;data()."/dir.txt"));
+
+file_put_contents("$dir/utcoffset.txt",$utco);
+
+echo "UTC Offset is $utco";</string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>F54D6C50-B47B-41EF-B009-3098D9EED252</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>include_once("timekeeper.php");
+include_once("workflows.php");
+error_reporting(0);
+
+$wf = new Workflows();
+$time = intval("{query}");
+$dir = trim(file_get_contents($wf-&gt;data()."/dir.txt"));
+
+$utco = file_get_contents("$dir/utcoffset.txt");
+$rawtime = "{query}";
+$proj=file_get_contents("$dir/project.txt");
+$laststate = file_get_contents("$dir/laststate.txt");
+$date=date('Y-m-d',time()-(60*60*24));
+$file="$dir/{$proj}_{$date}.txt";
+if(file_exists($file)) {
+	if(strcmp($laststate,"stop")===0) {
+		echo "No need too close.";
+	} else {
+		file_put_contents("$dir/laststate.txt","stop");
+		$lines = file_get_contents($file);
+		file_put_contents($file,$lines . "$time:stop\n");
+		echo "Stopped at $rawtime.";
+	}
+} else {
+	echo "Time File does not exist yet!";
+}
+</string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>6838A012-2304-401C-8160-24128EF08CA3</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>atk:closeyesterday</string>
+				<key>subtext</key>
+				<string>Alfred Time Keeper</string>
+				<key>text</key>
+				<string>Close out Yesterday to time</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>13B78751-364A-484A-B38A-EA6B2E3E7344</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>include_once("timekeeper.php");
+include_once("workflows.php");
+error_reporting(0);
+
+$wf = new Workflows();
+$date = trim("{query}");
+$dir = trim(file_get_contents($wf-&gt;data()."/dir.txt"));
+
+$proj=file_get_contents("$dir/project.txt");
+$file="$dir/{$proj}_{$date}.txt";
+$udates = strtotime("$date 08:00:00");
+$udatef = strtotime("$date 16:00:00");
+file_put_contents($file,"$udates:start\n$udatef:stop\n");
+
+echo "Set $date as a holiday.";
+</string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>6D93D438-4B8E-4212-A317-0CD1CAA7193B</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>atk:holiday</string>
+				<key>runningsubtext</key>
+				<string>Loading Days....</string>
+				<key>script</key>
+				<string>include "workflows.php";
+error_reporting(0);
+
+$wf = new Workflows();
+
+//
+// Get the date as Y-M-D
+//
+
+$raw = "{query}";
+$parts = explode("-",$raw);
+
+switch(count($parts)) {
+	case 1: {
+		$year = intval($parts[0]);
+		$cyear = intval(date("Y"));
+		if (($year &gt; $cyear)||($year == 0)) {
+			$year = $cyear;
+		}
+		$line = sprintf("%04d",$year);
+		$wf-&gt;result($count, "$line-", "What Year? $year", '', 'icon.png', 'no', "$line-");
+		break;
+	}
+
+	case 2: {
+		$year = intval($parts[0]);
+		$month = intval($parts[1]);
+		$cmonth = intval(date("m"));
+		if (($month &gt; 12)||($month &lt; 1)) {
+			$month = $cmonth;
+		}
+		$line = sprintf("%04d",$year) . "-" . sprintf("%02d",$month);
+		$wf-&gt;result($count, "$line-", "What Month? $month", '', 'icon.png', 'no', "$line-");
+		break;
+	}
+
+	case 3: {
+		//
+		// Make sure the day is correct.
+		//
+		$year = intval($parts[0]);
+		$month = intval($parts[1]);
+		$day = intval($parts[2]);
+		if(($day &lt; 1)||($day&gt;31)) {
+			$day = "01";
+		}
+
+		$line = sprintf("%04d",$year) . "-" . sprintf("%02d",$month) . "-" . sprintf("%02d",$day);
+		$wf-&gt;result($count, "$line", "What Day? $day", '', 'icon.png', 'yes', "$line");
+		break;
+	}
+}
+
+echo $wf-&gt;toxml();</string>
+				<key>subtext</key>
+				<string>Alfred Time Keeper</string>
+				<key>title</key>
+				<string>Set a Holiday Day</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>3DB656C5-0562-48E9-ADD8-498E85E5791D</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>atk:setdir</string>
+				<key>scopes</key>
+				<array/>
+				<key>subtext</key>
+				<string>Loading directories...</string>
+				<key>title</key>
+				<string>Set the Time Sheets Directory</string>
+				<key>types</key>
+				<array>
+					<string>public.folder</string>
+				</array>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>5FAF5C91-7577-4D8D-AE04-EFFF7EFD472D</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>include_once("timekeeper.php");
+include_once("workflows.php");
+error_reporting(0);
+$wf = new Workflows();
+
+file_put_contents($wf-&gt;data()."/dir.txt","{query}");
+
+echo "The time sheets will be placed here: {query}";
+</string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>7BAF7716-1FD8-4F64-9E69-DBD96486E9B5</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict/>
+			<key>type</key>
+			<string>alfred.workflow.action.browseinalfred</string>
+			<key>uid</key>
+			<string>8FC266B1-AD42-476E-BC84-DEF52278A9E4</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>atk:gotodir</string>
+				<key>runningsubtext</key>
+				<string>Loading Options...</string>
+				<key>script</key>
+				<string>include_once("timekeeper.php");
+include_once("workflows.php");
+error_reporting(0);
+
+$wf = new Workflows();
+
+$dir = trim(file_get_contents($wf-&gt;data()."/dir.txt"));
+
+$wf-&gt;result(1, $dir, $dir, '', 'icon.png', 'yes', $dir);
+
+echo $wf-&gt;toxml();
+</string>
+				<key>subtext</key>
+				<string>Alfred Time Keeper</string>
+				<key>title</key>
+				<string>Go to the Time Sheets Directory</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>ADEFA62F-34B0-4B50-A705-BB014057328F</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.action.revealfile</string>
+			<key>uid</key>
+			<string>2A366BE2-5DD2-4B6C-9D57-377410816E4F</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -1472,6 +2251,21 @@ HEREDOC;
 			<key>ypos</key>
 			<real>190</real>
 		</dict>
+		<key>064D8AA6-3A47-4EDB-AF7D-17435E5B6D97</key>
+		<dict>
+			<key>ypos</key>
+			<real>2150</real>
+		</dict>
+		<key>074B3E1C-F21F-4B0F-8BF5-58473EA93400</key>
+		<dict>
+			<key>ypos</key>
+			<real>1790</real>
+		</dict>
+		<key>13B78751-364A-484A-B38A-EA6B2E3E7344</key>
+		<dict>
+			<key>ypos</key>
+			<real>2390</real>
+		</dict>
 		<key>1739AB08-C0AD-47E2-9EE4-64CBE569D4F3</key>
 		<dict>
 			<key>ypos</key>
@@ -1482,15 +2276,45 @@ HEREDOC;
 			<key>ypos</key>
 			<real>550</real>
 		</dict>
+		<key>2A366BE2-5DD2-4B6C-9D57-377410816E4F</key>
+		<dict>
+			<key>ypos</key>
+			<real>2870</real>
+		</dict>
 		<key>381D99C4-B760-42D8-9A1B-A6F89EFDE6BA</key>
 		<dict>
 			<key>ypos</key>
 			<real>1430</real>
 		</dict>
+		<key>3DB656C5-0562-48E9-ADD8-498E85E5791D</key>
+		<dict>
+			<key>ypos</key>
+			<real>2510</real>
+		</dict>
 		<key>3F4F8E1A-1509-47E6-ACE0-F792B11A5A27</key>
 		<dict>
 			<key>ypos</key>
 			<real>810</real>
+		</dict>
+		<key>42864C1B-843E-4DBF-8537-5138421F1B73</key>
+		<dict>
+			<key>ypos</key>
+			<real>1790</real>
+		</dict>
+		<key>44EDF36E-5617-4262-8401-727951FCDABD</key>
+		<dict>
+			<key>ypos</key>
+			<real>2150</real>
+		</dict>
+		<key>45663168-540D-4FDA-A18A-44E8468F27CA</key>
+		<dict>
+			<key>ypos</key>
+			<real>2030</real>
+		</dict>
+		<key>4870EBCE-920A-4129-BC0B-F8B88F4ED7DC</key>
+		<dict>
+			<key>ypos</key>
+			<real>2270</real>
 		</dict>
 		<key>4E68399D-ABDA-4CBE-8ED6-13DE6BC4FC76</key>
 		<dict>
@@ -1512,20 +2336,55 @@ HEREDOC;
 			<key>ypos</key>
 			<real>1310</real>
 		</dict>
-		<key>63E7DB5A-2FCE-4A1B-8A4D-08CABCC99F77</key>
+		<key>5FAF5C91-7577-4D8D-AE04-EFFF7EFD472D</key>
 		<dict>
 			<key>ypos</key>
-			<real>1550</real>
+			<real>2630</real>
+		</dict>
+		<key>655ADC34-A808-4FB8-9CF4-BA57BF9F8D99</key>
+		<dict>
+			<key>ypos</key>
+			<real>2030</real>
+		</dict>
+		<key>6838A012-2304-401C-8160-24128EF08CA3</key>
+		<dict>
+			<key>ypos</key>
+			<real>2390</real>
+		</dict>
+		<key>698CC1E6-86E1-4D49-A755-4E82D83DD7C2</key>
+		<dict>
+			<key>ypos</key>
+			<real>1910</real>
 		</dict>
 		<key>6AAB19BA-7BF4-4E33-8C09-66253C0D0A81</key>
 		<dict>
 			<key>ypos</key>
 			<real>1190</real>
 		</dict>
+		<key>6D93D438-4B8E-4212-A317-0CD1CAA7193B</key>
+		<dict>
+			<key>ypos</key>
+			<real>2510</real>
+		</dict>
+		<key>79A0BB12-F400-4E7C-B181-FD055B3B37D6</key>
+		<dict>
+			<key>ypos</key>
+			<real>1670</real>
+		</dict>
+		<key>7BAF7716-1FD8-4F64-9E69-DBD96486E9B5</key>
+		<dict>
+			<key>ypos</key>
+			<real>2630</real>
+		</dict>
 		<key>7CF8D2FA-5DD4-44DC-A7D1-1984F3761417</key>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
+		</dict>
+		<key>88EE5B92-0C18-4BCB-956F-E5D7614FB400</key>
+		<dict>
+			<key>ypos</key>
+			<real>1670</real>
 		</dict>
 		<key>8957A46A-B65B-4A30-BD03-CCDFFCC8A9A3</key>
 		<dict>
@@ -1536,6 +2395,11 @@ HEREDOC;
 		<dict>
 			<key>ypos</key>
 			<real>950</real>
+		</dict>
+		<key>8FC266B1-AD42-476E-BC84-DEF52278A9E4</key>
+		<dict>
+			<key>ypos</key>
+			<real>2750</real>
 		</dict>
 		<key>8FDA1147-B40B-43B6-A452-3E52B0AD6D7F</key>
 		<dict>
@@ -1566,6 +2430,16 @@ HEREDOC;
 		<dict>
 			<key>ypos</key>
 			<real>810</real>
+		</dict>
+		<key>ADA6C829-C801-4674-8DE1-C0BE4BCEE5E6</key>
+		<dict>
+			<key>ypos</key>
+			<real>1910</real>
+		</dict>
+		<key>ADEFA62F-34B0-4B50-A705-BB014057328F</key>
+		<dict>
+			<key>ypos</key>
+			<real>2750</real>
 		</dict>
 		<key>B1102C87-0B85-41D6-BFD0-3262E833AA55</key>
 		<dict>
@@ -1601,6 +2475,16 @@ HEREDOC;
 		<dict>
 			<key>ypos</key>
 			<real>1550</real>
+		</dict>
+		<key>EE2505EC-23A9-4D76-AA27-38B049B73CD5</key>
+		<dict>
+			<key>ypos</key>
+			<real>1670</real>
+		</dict>
+		<key>F54D6C50-B47B-41EF-B009-3098D9EED252</key>
+		<dict>
+			<key>ypos</key>
+			<real>2270</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>
