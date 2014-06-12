@@ -1,0 +1,810 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Add",
+				"AddDate"
+			],
+			[
+				"num",
+				"numproj"
+			],
+			[
+				"GetCur",
+				"GetCurrentState"
+			],
+			[
+				"string",
+				"string"
+			],
+			[
+				"P",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"N",
+				"Now"
+			],
+			[
+				"read",
+				"readDayTime"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "TimeKeeper.go",
+			"settings":
+			{
+				"buffer_size": 18383,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/marked.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"defin",
+				"Go To Definition"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"chan",
+				"Surround: change surround"
+			],
+			[
+				"ch",
+				"Surround: change surround"
+			],
+			[
+				"chang",
+				"Surround: change surround"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"make sn",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"sele",
+				"Select By Regex"
+			],
+			[
+				"selec",
+				"Select By Regex"
+			],
+			[
+				"surroun",
+				"Surround: change surround"
+			],
+			[
+				"surr",
+				"Surround: surround selection"
+			],
+			[
+				"select",
+				"Select By Regex"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: List Packages"
+			],
+			[
+				"titl",
+				"Convert Case: Title Case"
+			],
+			[
+				"tit",
+				"Convert Case: Title Case"
+			],
+			[
+				"sup",
+				"SuperNavigator: Super Navigate"
+			],
+			[
+				"case",
+				"Convert Case: Upper Case"
+			],
+			[
+				"pa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"",
+				"Cheat Sheet: Regular Expressions"
+			],
+			[
+				"cheat",
+				"Cheat Sheet: Go"
+			],
+			[
+				"chea",
+				"Cheat Sheet: Bash"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"package dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"reg replace",
+				"Reg Replace: RegEx Input Sequencer"
+			],
+			[
+				"pac",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"merg",
+				"Merge Variables"
+			],
+			[
+				"binder",
+				"FileBinder: Choose a Binder"
+			],
+			[
+				"pack rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"packli",
+				"Package Control: List Packages"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"edi",
+				"Edit Preference: List Shortcut Keys"
+			],
+			[
+				"change",
+				"Surround: change surround"
+			],
+			[
+				"surr ch",
+				"Surround: change surround"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax: mar",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/raguay/Dropbox/Richard/Notes/Notes/ArticlesWorkingOn/AlfredTimekeeper/AlfredTimekeeper.md",
+		"/Users/raguay/.zshrc",
+		"/Users/raguay/.config/fish/config.fish",
+		"/Users/raguay/Dropbox (Personal)/Richard/rag/go/goAlfredTimeKeeper/README.md",
+		"/Users/raguay/Dropbox (Personal)/Richard/Notes/TimeSheets/Envato_2014-05-02.txt",
+		"/Users/richardguay/Dropbox/Richard/Notes/SermonSchedules/Jan12-Jan18-2014.md",
+		"/Users/richardguay/Library/Application Support/Sublime Text 3/Packages/GoSublime/USAGE.md",
+		"/Users/richardguay/Dropbox/Richard/Notes/notes.sublime-project",
+		"/Users/richardguay/Dropbox/Richard/rag/go/goPress/src/goPress/goPress.go",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/Discouraged.md",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/AlfredWorkflowsArticles/Beginner/AlfredWorkflows-Beginner.txt",
+		"/Volumes/CustomCT GDrive/test.txt",
+		"/Volumes/Envato GDrive/Envato/test.txt",
+		"/Users/richardguay/Dropbox/Richard/rag/Alfred/workflows/MyAlfred/README.md",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/TextSoapArticle/TextSoap-MDtoArticle.md",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/PopClipArticle/PopClip-Scripts.md",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/OfTheTruth.md",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/SantifyYourself.md",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/test.html",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/JudgeNotbySight.md",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/ShewThyPraise.md",
+		"/Users/richardguay/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/README.md",
+		"/Users/richardguay/Library/Application Support/Sublime Text 3/Packages/User/SyntaxMgr.sublime-settings",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/NightLight.md",
+		"/Users/richardguay/Library/Application Support/Sublime Text 3/Packages/User/test.sublime-snippet",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/AlfredWorkflowsArticles/Beginner/Alfred Workflows-Beginner.txt",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/BeNotCovetous.md",
+		"/Users/richardguay/Library/Application Support/Sublime Text 3/Packages/User/marked.sublime-build",
+		"/Users/richardguay/Library/Application Support/Sublime Text 3/Packages/User/marded.sublime-build",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/DoNotCovet.md",
+		"/Users/richardguay/.oh-my-zsh/lib/correction.zsh",
+		"/Users/richardguay/Dropbox/Richard/rag/popclip/popclipBible.popclipext/Config.plist",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/ChooseLife.md",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/NotAlwaysStrive.md",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/EyeLight.md",
+		"/Users/richardguay/Library/Application Support/Sublime Text 3/Packages/Cheat Sheets/cheat-sheets/Github Flavored Markdown.cheatsheet",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/AlfredWorkflowsArticles/beginner/Alfred Workflows-Beginner.txt",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/AlfredWorkflowsArticles/Beginner/AWF-Begin-29.jpg",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/AlfredWorkflowsArticles/Beginner/Alfred Workflows-Beginner.html",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/AlfredWorkflowsArticles/Alfred Workflows-Beginner.txt",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/StayAfloat.md",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/MadeToManifest.md",
+		"/Users/richardguay/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/Users/richardguay/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/Users/richardguay/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/GivingToDevil.md",
+		"/Users/richardguay/Library/Application Support/Alfred 2/Alfred.alfredpreferences/workflows/user.workflow.ADE38B62-8D6A-4A6B-B603-F272CC02B08B/test.php",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/calca.txt",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/PutOffPutOn.md",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/UponWhomJudgmentComes.md",
+		"/Users/richardguay/Dropbox/Richard/Envato/addToTimes/IntroToPackageDesign.md",
+		"/Users/richardguay/Library/Caches/com.runningwithcrayons.Alfred-2/Workflow Data/carlosnz.deskdrawer/DeskDrawer/Sample.txt",
+		"/Users/richardguay/Library/Application Support/Alfred 2/Alfred.alfredpreferences/workflows/user.workflow.4F92115F-8EC7-410D-9113-5E4EA9251D77/tpgi5.rb",
+		"/Users/richardguay/Library/Application Support/Alfred 2/Alfred.alfredpreferences/workflows/user.workflow.4F92115F-8EC7-410D-9113-5E4EA9251D77/tpgi10.rb",
+		"/Users/richardguay/Library/Application Support/Alfred 2/Alfred.alfredpreferences/workflows/user.workflow.4F92115F-8EC7-410D-9113-5E4EA9251D77/tpgi20.rb",
+		"/Users/richardguay/Dropbox/Richard/Envato/addToTimes/HandsOUPhoneGap.md",
+		"/Users/richardguay/Dropbox/Richard/Envato/addToTimes/BetterStatisticsGoogleCharts.md",
+		"/Users/richardguay/Dropbox/Richard/rag/Alfred/workflows/MyAlfred/TextSoapCleaners.json",
+		"/Users/richardguay/Dropbox/Richard/Envato/addToTimes/HTMLKickStartEss.md",
+		"/Users/richardguay/Dropbox/Richard/Envato/addToTimes/MachineLearningDistilled.md",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/TheMagicKetchupExperiment.md",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/SinEntangles.txt",
+		"/Users/richardguay/Dropbox/Richard/Envato/addToTimes/PrepWPThemesThemeForest.md",
+		"/Users/richardguay/Dropbox/Richard/Envato/addToTimes/SenchaTouchEss.md",
+		"/Users/richardguay/Documents/Envato/tmp.txt",
+		"/Users/richardguay/Library/Application Support/Sublime Text 3/Packages/Cheat Sheets/cheat-sheets/Regular Expressions.cheatsheet",
+		"/Users/richardguay/Dropbox/Richard/Envato/addToTimes/RWDtechniques.md",
+		"/Users/richardguay/Downloads/test.rb",
+		"/Users/richardguay/Library/Application Support/Sublime Text 3/Packages/Cheat Sheets/cheat-sheets/Go.cheatsheet",
+		"/Users/richardguay/Library/Application Support/Sublime Text 3/Packages/Cheat Sheets/cheat-sheets/Bash.cheatsheet",
+		"/Users/richardguay/Dropbox/Richard/Envato/addToTimes/AdvPhotoManipulation02.md",
+		"/Users/richardguay/Downloads/test.js",
+		"/Users/richardguay/Library/Application Support/Alfred 2/Workflow Data/com.customct.AlfredTimeKeeper/Envato_2013-09-23.txt",
+		"/Users/richardguay/Downloads/test.sh",
+		"/Users/richardguay/Dropbox/Richard/Custom Computer Tools/MX DNS records.txt",
+		"/Users/richardguay/.zshrc",
+		"/Users/richardguay/.oh-my-zsh/custom/rag.zsh",
+		"/Users/richardguay/Dropbox/Richard/Notes/Notes/Sermons/MagnitizedToGod.html",
+		"/Users/richardguay/Dropbox/Richard/Envato/AdvPhotoManipulation02.md",
+		"/Users/richardguay/Library/Application Support/Sublime Text 3/Packages/RegReplace/reg_replace.sublime-settings",
+		"/Users/richardguay/Library/Application Support/Sublime Text 3/Packages/RegReplace/Default.sublime-commands",
+		"/Users/richardguay/Library/Application Support/Alfred 2/Workflow Data/com.customct.AlfredTimeKeeper/Envato_2013-09-19.txt",
+		"/Users/richardguay/Library/Application Support/Alfred 2/Workflow Data/com.customct.AlfredTimeKeeper/Envato_2013-09-18.txt",
+		"/Users/richardguay/Library/Application Support/Alfred 2/Workflow Data/com.customct.AlfredTimeKeeper/Missions_2013-09-18.txt",
+		"/Users/richardguay/Library/Application Support/Alfred 2/Workflow Data/com.customct.AlfredTimeKeeper/Missions_2013-09-19.txt",
+		"/Users/richardguay/Dropbox/Richard/rag/Alfred/Alfred.alfredpreferences/workflows/user.workflow.5FCCFE80-D5F5-45EE-A7FB-FE8F6052E318/insert_snippet.sh",
+		"/Users/richardguay/Library/Application Support/Alfred 2/Workflow Data/com.customct.AlfredTimeKeeper/Envato_2013-09-16.txt",
+		"/Users/richardguay/Dropbox/Richard/Envato/addToTimes/InDesignCCEssentials.md",
+		"/Users/richardguay/Documents/Notebooks/messages.txt",
+		"/Users/richardguay/Documents/Notebooks/logs.txt",
+		"/Users/richardguay/Library/Application Support/Alfred 2/Workflow Data/com.customct.AlfredTimeKeeper/Envato_2013-09-12.txt",
+		"/Users/richardguay/Dropbox/Richard/Envato/addToTimes/PosterDesign.md",
+		"/Users/richardguay/Dropbox/Richard/GrowlyNotes/logger-9-12-2013.txt",
+		"/Users/richardguay/Dropbox/Richard/Envato/addToTimes/EffectInfographicDes.md",
+		"/Users/richardguay/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/Users/richardguay/Dropbox/Richard/rag/popclip/popclipBible.popclipext/bible.php",
+		"/Users/richardguay/Dropbox/Richard/Envato/addToTimes/DesIconsIOSAndroid.md",
+		"/Users/richardguay/Downloads/Outline.txt",
+		"/Users/richardguay/Dropbox/Richard/Envato/Infomedia.txt",
+		"/Users/richardguay/Library/Application Support/Alfred 2/Workflow Data/com.customct.AlfredTimeKeeper/Envato_2013-09-05.txt",
+		"/Users/richardguay/Dropbox/Richard/rag/Alfred/Alfred.alfredpreferences/workflows/user.workflow.2589C924-0D2E-4D97-B5CC-B3C5C244FDC4/test.php",
+		"/Users/richardguay/bin/fliphost",
+		"/Users/richardguay/Dropbox/Richard/rag/Alfred/Alfred.alfredpreferences/workflows/user.workflow.DE6F562A-CF5D-44E6-B4B7-A035CC6E6E0D/highriselib.php",
+		"/Users/richardguay/Dropbox/Richard/Envato/addToTimes/CSS3Typography.md",
+		"/Users/richardguay/Dropbox/Richard/rag/Alfred/Alfred.alfredpreferences/workflows/user.workflow.DE6F562A-CF5D-44E6-B4B7-A035CC6E6E0D/test.php",
+		"/Users/richardguay/Library/Application Support/Alfred 2/Workflow Data/com.customct.AlfredTimeKeeper/Envato_2013-09-02.txt",
+		"/Users/richardguay/Dropbox/Richard/rag/Alfred/Alfred.alfredpreferences/workflows/user.workflow.60C7FDE7-4B53-45C3-919E-FD3D07374112/test.php",
+		"/Users/richardguay/Library/Application Support/Alfred 2/Workflow Data/com.customct.TextSoapCleaners/cleaners.txt",
+		"/Users/richardguay/Dropbox/Richard/rag/Alfred/Alfred.alfredpreferences/workflows/user.workflow.AA96FD15-B7AE-426A-A645-8929F4DBC273/openChrome.sh",
+		"/Users/richardguay/Dropbox/Richard/Envato/envato.sublime-workspace",
+		"/Users/richardguay/Dropbox/Richard/Envato/Closed Captioning/TestTipsPHPLaravel.md",
+		"/Users/richardguay/Dropbox/Richard/rag/Alfred/Alfred.alfredpreferences/workflows/user.workflow.FC704D92-5944-423F-87BD-358109526CDF/update.json",
+		"/Users/richardguay/Dropbox/Richard/rag/Alfred/Alfred.alfredpreferences/workflows/user.workflow.D0F3524E-BE79-4335-8B0B-37A8AC59096E/test.php",
+		"/Users/richardguay/Dropbox/Richard/rag/Alfred/Alfred.alfredpreferences/workflows/user.workflow.D0F3524E-BE79-4335-8B0B-37A8AC59096E/highriselib.php",
+		"/Users/richardguay/Dropbox/Richard/Envato/addToTimes/AdobeMuseCC.md",
+		"/Users/richardguay/Dropbox/Richard/rag/Alfred/Alfred.alfredpreferences/workflows/user.workflow.A4BA3975-284D-432F-9F59-E05E91739CC0/cpVideoDir",
+		"/Users/richardguay/Dropbox/Richard/rag/Alfred/Alfred.alfredpreferences/workflows/user.workflow.A4BA3975-284D-432F-9F59-E05E91739CC0/cpFile",
+		"/Users/richardguay/Dropbox/Richard/Envato/addToTimes/MagentoFundamentals.md",
+		"/Users/richardguay/Dropbox/Richard/rag/popclip/popclipBible.popclipext/bible.sh",
+		"/Users/richardguay/Dropbox/Richard/rag/Alfred/Alfred.alfredpreferences/workflows/user.workflow.24CE3539-BE8A-4FE8-89CE-2F328A9B1F22/biblelib.php",
+		"/Users/richardguay/Dropbox/Richard/Envato/addToTimes/CanvasEssentials.md",
+		"/Users/richardguay/Documents/test/octopress/sass/_base.scss",
+		"/Users/richardguay/Documents/test/octopress/sass/base/_theme.scss",
+		"/Users/richardguay/Documents/test/octopress/sass/base/_layout.scss",
+		"/Users/richardguay/Documents/test/octopress/sass/screen.scss",
+		"/Users/richardguay/Documents/test/octopress/_config.yml",
+		"/Users/richardguay/Documents/test/octopress/config.rb",
+		"/Users/richardguay/Documents/test/octopress/source/_includes/custom/header.html"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"time stamp",
+			"time keeper",
+			"time sheet",
+			").",
+			"project()",
+			"state()",
+			"SystemViewDate",
+			"SystemViewDay()",
+			"project()",
+			"we",
+			"**",
+			"contains",
+			"AddDate",
+			"getcurrentstate",
+			"time",
+			"time.now",
+			"Atoi",
+			"Time",
+			"Atoi",
+			"\"",
+			"\"([^\"]*)\"",
+			"'|\"",
+			"our",
+			"we",
+			"</td></tr>",
+			"<tr><td>",
+			"</td><td>",
+			"<strong>([^<]*)<strong>",
+			"'|\"",
+			"our",
+			"we",
+			"our",
+			"we",
+			"month",
+			"in to",
+			"\"",
+			"our ",
+			"we ",
+			" we",
+			" we ",
+			"\"",
+			"(\\<\\/*)bold",
+			"bold",
+			" we",
+			"our ",
+			" our",
+			" our ",
+			"(\\'|\\\")([^'\"])*(\\'|\\\")",
+			"(\\'|\\\")([^'\"])(\\'|\\\")",
+			"\\'([^'\"])\\'",
+			" expension",
+			" we ",
+			" our ",
+			" we ",
+			" our ",
+			"we ",
+			" we ",
+			"mac.tutsplus.com",
+			" our ",
+			"we ",
+			"</code>",
+			"<code>",
+			"case insensitive",
+			"PowerPack",
+			"reveal file in ",
+			"keyword",
+			"preaty",
+			"\\Z",
+			"$/",
+			"tab",
+			"radio",
+			"Alfred",
+			"Folders",
+			"All",
+			"let",
+			"Ó",
+			"Ò",
+			"Ñ",
+			"github",
+			"gmail",
+			"144",
+			"36",
+			"144",
+			"membersvar",
+			"namevar",
+			"puts",
+			"num",
+			"sys.stdout.write",
+			"cancelpress",
+			"buttpress",
+			"padx 15 ; pady 15; side 'top'",
+			"pack",
+			"variable2",
+			"variable1",
+			"entry1",
+			"entry2",
+			"1378971843:stop\n",
+			"\\((\\d*\\:\\d*\\:\\d*)\\)",
+			"Show Notes",
+			"\\((\\d*\\:\\d*).*\\)",
+			",",
+			"person",
+			"people",
+			"notesDirName",
+			"Chapter",
+			"color_scheme",
+			"dropbox",
+			"1",
+			"0",
+			"print ",
+			"iOS",
+			"Ios",
+			"iOS",
+			"Ios",
+			"IOS",
+			"iOS",
+			"IOS",
+			"Ios",
+			"<li> </li>",
+			"<li> </li>\n",
+			"<li> </li>",
+			"^$",
+			"<li> </li>",
+			"<li>Week",
+			"Week",
+			"18"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"timestamp",
+			"timekeeper",
+			"timesheet",
+			"<strong>$1</strong>",
+			"<strong>",
+			"**",
+			"$1strong",
+			"emp",
+			"\\nTime: $1",
+			"\\ntime: $1",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "TimeKeeper.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12714,
+								12714
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 453.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GoSublime-main-output":
+	{
+		"height": 100.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 130.0
+	},
+	"project": "TimeKeeper.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 165.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

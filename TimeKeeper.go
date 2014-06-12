@@ -44,28 +44,61 @@ func main() {
 	if len(os.Args) > 1 {
 		switch os.Args[1][0] {
 		case 'm':
+			//
+			// atk:month
+			//
 			SystemViewMonth()
 		case 'w':
+			//
+			// atk:week
+			//
 			SystemViewWeek()
 		case 't':
+			//
+			// atk:current
+			//
 			SystemViewDate()
 		case 'r':
+			//
+			// atk:remove
+			//
 			RemoveProject()
 		case 'c':
+			//
+			// atk:project
+			//
 			ChangeProject()
 		case 'b':
+			//
+			// atk:current
+			//
 			SystemViewDay()
 		case 'a':
+			//
+			// atk:addproject
+			//
 			AddProject()
 		case 'o':
+			//
+			// atk:state
+			//
 			StopStart()
 		case 'p':
+			//
+			// Used for atk:project script filter
+			//
 			project()
 		case 'T':
+			//
+			// atk:time
+			//
 			SystemAllProjects()
 		case 's':
 			fallthrough
 		default:
+			//
+			// Used for the script filter on atk:state
+			//
 			state()
 		}
 	}
@@ -86,6 +119,12 @@ func getTimeSheetDir() string {
 			// Convert the directory path to a string and trim it.
 			//
 			TSDir = strings.TrimSpace(string(buf))
+		} else {
+			//
+			// The Directory has not been set. Make it the default location.
+			//
+			TSDir = goAlfred.Data()
+			err = ioutil.WriteFile(Filename, []byte(TSDir), 0666)
 		}
 	}
 
@@ -163,17 +202,17 @@ func SystemViewMonth() {
 }
 
 //
-// Function:           GetTimeAtDate
+// Function:           GetTimeAtMonth
 //
 // Description:       This function will take a project and calculate the time spent
-//                          on that project for a particular date.
+//                          on that project for a particular month.
 //
 func GetTimeAtMonth(project string, date time.Time) int64 {
 	tm := int64(0)
 	dateStart := time.Date(date.Year(), date.Month(), 1, 0, 0, 0, 0, time.UTC)
 
 	//
-	// Get the time added up for the whole week.
+	// Get the time added up for the whole month.
 	//
 	for i := 0; i <= date.Day(); i++ {
 		tm += GetTimeAtDate(project, dateStart.AddDate(0, 0, i))
@@ -424,6 +463,13 @@ func ChangeProject() {
 	proj := GetCommandLineString()
 
 	//
+	// Change to the specified project.
+	//
+	ChangeNamedProject(proj)
+}
+
+func ChangeNamedProject(proj string) {
+	//
 	// Get the current project.
 	//
 	currentProject := GetCurrentProject()
@@ -508,6 +554,11 @@ func AddProject() {
 	Fh.Close()
 
 	//
+	// Make it the new current project.
+	//
+	ChangeNamedProject(proj)
+
+	//
 	// Tell the user that the project is added.
 	//
 	fmt.Print("Added project " + proj + " to the list.")
@@ -583,7 +634,7 @@ func project() {
 	// For each project, create a result line. Show all put the current project.
 	//
 	for i := 0; i < numproj; i++ {
-		if !strings.Contains(projects[i], latestproject) {
+		if !strings.Contains(projects[i], latestproject) || (latestproject == "") {
 			goAlfred.AddResultsSimilar(proj, projects[i], projects[i], projects[i], "", "icon.png", "yes", "", "")
 		}
 	}
@@ -764,6 +815,12 @@ func GetCurrentState() string {
 		// Convert the current project to a string and trim it.
 		//
 		currentState = strings.TrimSpace(string(buf))
+	} else {
+		//
+		// The current state is stop if the file does not exist. Create the file
+		// with that state.
+		//
+		err = ioutil.WriteFile(Filename, []byte(currentState), 0666)
 	}
 	return currentState
 }
