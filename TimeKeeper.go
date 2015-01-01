@@ -198,7 +198,9 @@ func SystemViewMonth() {
 	//
 	// Get the time on that project for this month. The current time gives the current month.
 	//
-	tm := GetTimeAtMonth(currentProject, time.Now())
+	now := time.Now()
+	year, month, _ := now.Date()
+	tm := GetTimeAtMonth(currentProject, year, month)
 
 	//
 	// format the time string and print it out.
@@ -222,7 +224,10 @@ func SystemViewLastMonth() {
 	// Get the time on that project for this month. The current time gives the current month.
 	//
 	now := time.Now()
-	tm := GetTimeAtMonth(currentProject, now.AddDate(0, -1, 0))
+	year, month, _ := now.Date()
+	month = month - 1
+
+	tm := GetTimeAtMonth(currentProject, year, month)
 
 	//
 	// format the time string and print it out.
@@ -233,12 +238,12 @@ func SystemViewLastMonth() {
 //
 // Function:           GetTimeAtMonth
 //
-// Description:       This function will take a project and calculate the time spent
-//                          on that project for a particular month.
+// Description:       This function will take a project and calculate
+//							 the time spent on that project for a particular
+//							 month.
 //
-func GetTimeAtMonth(project string, date time.Time) int64 {
+func GetTimeAtMonth(project string, year int, month time.Month) int64 {
 	tm := int64(0)
-	year, month, _ := date.Date()
 	dateStart := time.Date(year, month, 1, 0, 0, 0, 0, time.UTC)
 	dateEnd := time.Date(year, month, 32, 0, 0, 0, 0, time.UTC)
 	lastDay := 32 - dateEnd.Day()
@@ -246,7 +251,7 @@ func GetTimeAtMonth(project string, date time.Time) int64 {
 	//
 	// Get the time added up for the whole month.
 	//
-	for i := 0; i <= lastDay; i++ {
+	for i := 0; i < lastDay; i++ {
 		tm += GetTimeAtDate(project, dateStart.AddDate(0, 0, i))
 	}
 
