@@ -1,2 +1,10 @@
 {
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+	"last_open_time": "2014-09-01 15:11:00"
 }

@@ -48,6 +48,11 @@ func main() {
 			// atk:month
 			//
 			SystemViewMonth()
+		case 'l':
+			//
+			// atk:lastmonth
+			//
+			SystemViewLastMonth()
 		case 'w':
 			//
 			// atk:week
@@ -202,6 +207,30 @@ func SystemViewMonth() {
 }
 
 //
+// Function:           SystemViewLastMonth
+//
+// Description:       This function will calculate the time last
+//							 month for the current project.
+//
+func SystemViewLastMonth() {
+	//
+	// Get the current project.
+	//
+	currentProject := GetCurrentProject()
+
+	//
+	// Get the time on that project for this month. The current time gives the current month.
+	//
+	now := time.Now()
+	tm := GetTimeAtMonth(currentProject, now.AddDate(0, -1, 0))
+
+	//
+	// format the time string and print it out.
+	//
+	fmt.Print(formatTimeString(tm))
+}
+
+//
 // Function:           GetTimeAtMonth
 //
 // Description:       This function will take a project and calculate the time spent
@@ -209,12 +238,15 @@ func SystemViewMonth() {
 //
 func GetTimeAtMonth(project string, date time.Time) int64 {
 	tm := int64(0)
-	dateStart := time.Date(date.Year(), date.Month(), 1, 0, 0, 0, 0, time.UTC)
+	year, month, _ := date.Date()
+	dateStart := time.Date(year, month, 1, 0, 0, 0, 0, time.UTC)
+	dateEnd := time.Date(year, month, 32, 0, 0, 0, 0, time.UTC)
+	lastDay := 32 - dateEnd.Day()
 
 	//
 	// Get the time added up for the whole month.
 	//
-	for i := 0; i <= date.Day(); i++ {
+	for i := 0; i <= lastDay; i++ {
 		tm += GetTimeAtDate(project, dateStart.AddDate(0, 0, i))
 	}
 
